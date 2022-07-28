@@ -3,6 +3,11 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+.card-body:hover{
+    transform: scale(1.05);
+    transition: transform;
+    transition-duration: 1s;
+}
 .price-div {
   border: 1px solid;
 
@@ -12,7 +17,9 @@
     rgba(59, 63, 87, 0) 100%
   );
 }
-
+.landing::-webkit-scrollbar {
+  display: none;
+}
 .logo-circle {
   background: linear-gradient(
     180deg,
