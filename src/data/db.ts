@@ -7,11 +7,11 @@ interface DBtype {
 }
 
 const logoPaths = {
-  bitcoin: "/logos/Bitcoin.svg",
-  solana: "/logos/Solana.svg",
-  etherium: "/logos/Ethereum.svg",
-  binance: "/logos/Binance.svg",
-  shiba: "/logos/SHIBA.svg",
+  bitcoin: "./logos/Bitcoin.svg",
+  solana: "./logos/Solana.svg",
+  etherium: "./logos/Ethereum.svg",
+  binance: "./logos/Binance.svg",
+  shiba: "./logos/SHIBA.svg",
 };
 export const db: DBtype[] = [
   {
